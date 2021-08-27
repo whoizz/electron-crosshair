@@ -1,0 +1,27 @@
+{
+  "name": "electron-crosshair",
+  "productName": "electron-crosshair",
+  "description": "Simple Crosshair Overlay",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "danie",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "13.1.7",
+    "electron-prebuilt-compile": "8.2.0"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-zip"
+        }
+      ]
+    }
+  }
+}
